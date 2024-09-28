@@ -13,5 +13,21 @@ namespace Inciso_1
         {
 
         }
+
+        protected void btn_submit_Click(object sender, EventArgs e)
+        {
+            if (txt_usuarios.Text.Trim() == string.Empty)
+            {
+               
+            }
+            else if (txt_contrasena.Text.Trim() == string.Empty)
+            {
+                
+            }
+            else
+            {
+                //! lOGICA DE NEGOCIO PARA REALIZAR SOLICITUD.
+            }
+        }
     }
 }
