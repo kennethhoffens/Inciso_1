@@ -20,7 +20,7 @@ namespace Inciso_1
             {
                
             }
-            else if (txt_contrasena.Text.Trim() == string.Empty)
+            else if (txt_pass.Text.Trim() == string.Empty)
             {
                 
             }

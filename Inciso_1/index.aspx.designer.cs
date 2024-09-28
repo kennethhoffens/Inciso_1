@@ -49,13 +49,13 @@ namespace Inciso_1 {
         protected global::System.Web.UI.WebControls.TextBox txt_usuarios;
         
         /// <summary>
-        /// Control txt_contrasena.
+        /// Control txt_pass.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_contrasena;
+        protected global::System.Web.UI.WebControls.TextBox txt_pass;
         
         /// <summary>
         /// Control btn_submit.

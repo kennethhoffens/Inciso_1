@@ -30,7 +30,7 @@
                                 <div class="input-group mb-3">
                                     <span class="input-group-text">*</span>
                                     <div class="form-floating">
-                                        <asp:TextBox ID="txt_contrasena" class="form-control" TextMode="Password" runat="server" placeholder="Contraseña"></asp:TextBox>
+                                        <asp:TextBox ID="txt_pass" class="form-control" TextMode="Password" runat="server" placeholder="Contraseña"></asp:TextBox>
                                         <label>Contraseña</label>
                                     </div>
                                 </div>
