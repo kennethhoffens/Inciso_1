@@ -18,11 +18,11 @@ namespace Inciso_1
         {
             if (txt_usuarios.Text.Trim() == string.Empty)
             {
-               
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('El campo Usuario es requerido.')", true);
             }
             else if (txt_pass.Text.Trim() == string.Empty)
             {
-                
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('El campo Contraseña es requerido.')", true);
             }
             else
             {
